@@ -10,6 +10,8 @@ public class SSPADDto implements Serializable {
 
     // 时间
     private Date date;
+    // 国家
+    private String countrie;
     // 广告主
     private ADMaster adMaster;
     // 广告位
@@ -18,6 +20,8 @@ public class SSPADDto implements Serializable {
     private String media;
     // 操作系统
     private String os;
+    // 分成率
+    private int spoilsScale;
     // 分成后收入
     private String spoilsIncome;
     // 请求数
@@ -137,5 +141,21 @@ public class SSPADDto implements Serializable {
 
     public void setClickDifference(String clickDifference) {
         this.clickDifference = clickDifference;
+    }
+
+    public int getSpoilsScale() {
+        return spoilsScale;
+    }
+
+    public void setSpoilsScale(int spoilsScale) {
+        this.spoilsScale = spoilsScale;
+    }
+
+    public String getCountrie() {
+        return countrie;
+    }
+
+    public void setCountrie(String countrie) {
+        this.countrie = countrie;
     }
 }

@@ -81,11 +81,11 @@ public class ImageDto implements Serializable {
 //        System.out.println(number);
 //
 
-//        String x = "s=_AZMX_&ss=_AZMY_";
-//        x = x.replaceAll("_AZMX_", "xx");
-//        x = x.replaceAll("_AZMY_", "xxss");
-//        String xx = String.format(x, "x", "xx");
-//        System.out.println(x);
+//        String World = "s=_AZMX_&ss=_AZMY_";
+//        World = World.replaceAll("_AZMX_", "xx");
+//        World = World.replaceAll("_AZMY_", "xxss");
+//        String xx = String.format(World, "World", "xx");
+//        System.out.println(World);
 
 
 

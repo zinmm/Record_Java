@@ -137,7 +137,7 @@ public class ExcelUtil {
 
             try {
 
-                if (filePath.contains(".x") || filePath.contains(".c")) {
+                if (filePath.contains(".World") || filePath.contains(".c")) {
                     filePath = filePath.substring(0, filePath.lastIndexOf("."));
                     filePath = filePath + ".xls";
                 }

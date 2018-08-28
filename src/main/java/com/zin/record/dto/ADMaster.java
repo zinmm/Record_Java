@@ -7,6 +7,9 @@ import java.io.Serializable;
  */
 public class ADMaster implements Serializable {
 
+    private String id;
+    // 请求数
+    private String requestNumber;
     // 广告主
     private String name;
     // 曝光（广告主）
@@ -19,6 +22,8 @@ public class ADMaster implements Serializable {
     private String cpm;
     // 点击率 (广告主)
     private String clickWight;
+    // 曝光率
+    private String exposureWight;
 
     public String getName() {
         return name;
@@ -66,5 +71,29 @@ public class ADMaster implements Serializable {
 
     public void setClickWight(String clickWight) {
         this.clickWight = clickWight;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getRequestNumber() {
+        return requestNumber;
+    }
+
+    public void setRequestNumber(String requestNumber) {
+        this.requestNumber = requestNumber;
+    }
+
+    public String getExposureWight() {
+        return exposureWight;
+    }
+
+    public void setExposureWight(String exposureWight) {
+        this.exposureWight = exposureWight;
     }
 }
